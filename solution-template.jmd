@@ -36,7 +36,7 @@ shapes=[:hexagon, :rect, :rect, :hexagon]
 xpos = [0, -1, -0.25, 1]
 ypos = [1, 0, 0, -1]
 
-graphplot(A, names=names, edgelabel = edgelabel, markersize=0.15, markershapes=shapes, markercolor=:white, x=xpos, y=ypos)
+graphplot(A, names=names, markersize=0.15, markershapes=shapes, markercolor=:white, x=xpos, y=ypos)
 
 ```
 
